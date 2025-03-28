@@ -105,7 +105,7 @@ export default {
 // all restaurant array
 all_restaurant.push(new_restaurant);
 
-        if (three_restaurant.length == 2) {
+        if (three_restaurant.length === 2) {
           three_restaurant.push(new_restaurant);
           restaurantData.value.push(three_restaurant);
           three_restaurant = [];
@@ -157,6 +157,7 @@ all_restaurant.push(new_restaurant);
     height: 120px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     img {
@@ -349,6 +350,7 @@ ul li{
 }
 
 }
+@media
 
 
 </style>
